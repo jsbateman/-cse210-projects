@@ -17,3 +17,15 @@ using System;
     {_top = numerator;
     _bottom = denominator;}
     }
+
+    public void SetNumerator (int numerator) 
+    {_top = numerator}
+    public int get numerator()
+    {
+    return numerator;
+    }
+    public int getDenominator(int denominator)  
+    {
+    return denominator;
+    }
+    
